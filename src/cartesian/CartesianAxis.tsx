@@ -348,6 +348,7 @@ export class CartesianAxis extends Component<Props> {
   }
 
   renderAxisLine() {
+    console.log("Saurabh this renders axisline");
     const { x, y, width, height, orientation, mirror, axisLine } = this.props;
     let props: SVGProps<SVGLineElement> = {
       ...filterProps(this.props),
